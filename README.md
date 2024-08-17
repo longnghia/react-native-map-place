@@ -5,19 +5,24 @@ map with place builtin
 ## Installation
 
 ```sh
+npm install react-native-maps
 npm install react-native-map-place
+```
+
+Or Yarn
+
+```sh
+yarn add react-native-maps
+yarn add react-native-map-place
 ```
 
 ## Usage
 
 
 ```js
-import { multiply } from 'react-native-map-place';
+import { MapPlace } from 'react-native-map-place';
 
-// ...
 
-const result = await multiply(3, 7);
-```
 
 
 ## Contributing
@@ -31,3 +36,4 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+

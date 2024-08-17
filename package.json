@@ -68,6 +68,7 @@
     "@react-native/eslint-config": "^0.73.1",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^29.5.5",
+    "@types/lodash": "^4.17.7",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
     "del-cli": "^5.1.0",
@@ -181,5 +182,10 @@
   "create-react-native-library": {
     "type": "library",
     "version": "0.41.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "query-string": "^9.1.0",
+    "react-native-maps": "^1.17.3"
   }
 }
